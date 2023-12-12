@@ -7,43 +7,46 @@
     <link rel="stylesheet" href="src/style.css" />
   </head>
   <body>
-    <header>
-      <h1>Welcome to the Italian poem generator</h1>
-    </header>
+    <div class="container">
+      <header>
+        <h1>Welcome to the Italian poem generator</h1>
+      </header>
 
-    <main>
-      <form>
-        <input
-          type="text"
-          placeholder="Enter the topic of the poem"
-          autofocus
-          required
-          autocomplete="off"
-        />
-        <input type="submit" />
-      </form>
-      <div>
-        The poem will go here
-        <br />
-        The poem will go here
-        <br />
-      </div>
-    </main>
+      <main>
+        <form>
+          <input
+            type="text"
+            placeholder="Enter the topic of the poem"
+            autofocus
+            required
+            autocomplete="off"
+            class="instructions"
+          />
+          <input type="submit" class="submit-button" />
+        </form>
+        <div class="poem">
+          The poem will go here
+          <br />
+          The poem will go here
+          <br />
+        </div>
+      </main>
 
-    <footer>
-      This project was coded by
-      <a href="https://www.linkedin.com/in/noemi-spadini/" target="_blank"
-        >Noemi Spadini</a
-      >
-      and is
-      <a href="https://github.com/NoemiSpadini/ai-generator" target="_blank">
-        open-sourced on GitHub</a
-      >
-      and is hosted on
-      <a href="https://ai-italian-poem-generator.netlify.app/" target="_blank"
-        >Netlify</a
-      >
-    </footer>
+      <footer>
+        This project was coded by
+        <a href="https://www.linkedin.com/in/noemi-spadini/" target="_blank"
+          >Noemi Spadini</a
+        >
+        and is
+        <a href="https://github.com/NoemiSpadini/ai-generator" target="_blank">
+          open-sourced on GitHub</a
+        >
+        and is hosted on
+        <a href="https://ai-italian-poem-generator.netlify.app/" target="_blank"
+          >Netlify</a
+        >
+      </footer>
+    </div>
     <script src="src/index.js"></script>
   </body>
 </html>
